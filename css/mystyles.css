@@ -32,7 +32,8 @@ section.services-container h2 {
   margin: 30px; }
 
 section.secondary-action {
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  padding: 25px; }
 
 div.button-wrapper {
   padding-top: 30px; }
