@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+// Import a Google Font
+//@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+$beige-lighter: #EFF0EB;
+$black: #000;
+
+// // Update Bulma's global variables
+$widescreen-enabled: false;
+// $fullhd-enabled: false;
+
+$box-hover-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px;
+.box:hover {
+  transform: scale(1.01);
+  background-color: white !important;
+}
+
+a.pull-right {
+  margin-left: 35px;
+}
+
+.sub-header {
+  margin-top: 5rem;
+}
+
+footer a {
+  color: white;
+}
+
+div.about-text {
+  padding: 30px;
+}
+
+.footer-container {
+  padding-top: 100px;
+}
+
+section#call-to-action-container {
+  margin-top: 50px;
+}
+
+section.services-container {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+section.services-container h2 {
+  margin: 30px;
+}
+
+section.secondary-action {
+  margin-bottom: 25px;
+}
+
+div.button-wrapper {
+  padding-top: 30px;
+}
+
+i.scroll-button {
+  margin-top: 10px;
+  animation: pulse 1.1s infinite;
+}
+
+i.scroll-button:hover {
+  color: lightpink;
+  animation: none;
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1)
+  }
+  30% {
+    transform: scale(1.03);
+  }
+  60% {
+    transform: scale(1.06);
+  }
+  90% {
+    transform: scale(1.01);
+  }
+}
+
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/grid/columns";
+@import "../node_modules/bulma/sass/elements/image.sass";
+@import "../node_modules/bulma/sass/elements/box.sass";
+@import "../node_modules/bulma/sass/components/media.sass";
+@import "../node_modules/bulma/sass/base/helpers.sass";
