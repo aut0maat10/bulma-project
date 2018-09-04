@@ -3,6 +3,17 @@
 // Import a Google Font
 //@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
+section.hero.is-info {
+  position: relative;
+}
+
+// svg {
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+//   height: 22vw;
+// }
+
 $beige-lighter: #EFF0EB;
 $black: #000;
 
@@ -33,7 +44,8 @@ div.about-text {
 }
 
 .footer-container {
-  padding-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 section#call-to-action-container {
@@ -60,6 +72,12 @@ div.button-wrapper {
 i.scroll-button {
   margin-top: 10px;
   animation: pulse 1.1s infinite;
+  z-index: 1000;
+}
+
+div.icon-background {
+  color: #fff;
+  z-index: -1;
 }
 
 i.scroll-button:hover {
